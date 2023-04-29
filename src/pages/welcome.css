@@ -1,0 +1,34 @@
+
+.welcome-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .welcome-header {
+    color: rgba(39, 49, 120);
+    font-weight: 400;
+    font-size: 3rem;
+  }
+  
+  .welcome-header span {
+    color:#d74590;
+    font-weight: 500;
+  }
+  
+  .logout-button {
+    background-color: rgba(39, 49, 120);
+    margin-left: 6rem;
+    margin-right: 2rem;
+    border: none;
+    letter-spacing: 0.1rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    border-radius: 10rem;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 1s ease;
+  }
